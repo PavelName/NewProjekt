@@ -9,7 +9,6 @@ body {
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
-    background-color: coral;
 }
 /* Навигация сайта */
 header {
@@ -22,7 +21,7 @@ ul {
     padding: 20px;
 }
 a {
-    font-size: 40px;
+    font-size: 20px;
     padding: 20px;
     color: aqua;
     text-decoration: none;
@@ -82,25 +81,42 @@ a:hover {
 }
 /* Портфолио */
 .portfolio {
-    background-color: rgb(155, 127, 255);
+    /* background-color: rgb(155, 127, 255); */
     padding-top: 80px;
     padding-bottom:115px ;
 }
 .portfolio_header {
-
+    margin: 0;
+    margin-bottom: 70px;
     font-weight: 700;
     font-size: 46px;
     line-height: 130%;
 
     text-align: center;
     color: #000000;
+}
+
+.portfolio_cards_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 .card {
+    
+    margin-bottom: 30px;
     padding: 20px;
     max-width: 540px;
     background-color:#FFFFFF;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
 }
+
+.card:last-child, .card:nth-last-child(2) {
+
+    margin-bottom: 0;
+}
+
+
 .card_img {
 margin-bottom: 20px;
 }

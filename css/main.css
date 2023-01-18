@@ -67,7 +67,7 @@ header {
     text-align: center;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    
+
     color: red;
     
 }
@@ -270,6 +270,9 @@ text-align: center;
 
 .project_img {
     margin-bottom: 70px;
+}
+.project_img_weight {
+    color: maroon;
 }
 
 .project_description {

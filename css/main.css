@@ -4,6 +4,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    color: #000000;
 }
 .container {
     max-width: 1110px;
@@ -12,21 +13,22 @@ body {
 }
 /* Навигация сайта */
 header {
-    background-color: brown;
+    background: #1E4776;
+    /* background-color: brown; */
 }
-ul {
+.header_nav {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 20px;
 }
-a {
+.header_nav a {
     font-size: 20px;
     padding: 20px;
     color: aqua;
     text-decoration: none;
 }
-a:hover {
+.header_nav a:hover {
     color: chartreuse;
 }
 .header_head {
@@ -39,7 +41,7 @@ a:hover {
     width: 100%; 
     height: 100vh;
     background-color: #1E4776; 
-    background-image: url("./../img/header/header-lt.jpg");
+    background-image: url("./../img/header/images.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -52,7 +54,7 @@ a:hover {
     line-height: 130%;
 
     text-align: center;
-    color: #FFFFFF;
+    color: green;
 
 }
 
@@ -65,8 +67,8 @@ a:hover {
     text-align: center;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    
-    color: #FFFFFF;
+
+    color: red;
     
 }
 .header_arrow {
@@ -105,10 +107,27 @@ a:hover {
 .card {
     
     margin-bottom: 30px;
-    padding: 20px;
+    
     max-width: 540px;
     background-color:#FFFFFF;
     box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+    transition: transform 0.2s ease-in;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+}
+
+.card_link {
+    padding: 20px;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+.card_link:hover {
+    color: chocolate;
 }
 
 .card:last-child, .card:nth-last-child(2) {
@@ -127,17 +146,13 @@ margin-bottom: 20px;
     font-size: 24px;
     line-height: 130%;
 
-    color: #000000;
-
 }
 .card p {
     margin: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
-
-    color: #000000;
-
+  
 }
 
 /* footer */
@@ -187,15 +202,14 @@ margin-bottom: 20px;
 
 }
 
-.footer_icons_row {
+.footer_icins_row {
     display: flex; 
-     align-items: center; 
+    align-items: center; 
 
 }
 
-.footer_icons_row > * + * {
-    color: brown;
-margin-left: 30px;
+.footer_icins_row > * + * {
+    margin-left: 30px;
 }
 
 .footer_contacts {
@@ -210,14 +224,20 @@ margin-left: 30px;
 
     border: 3px solid #FFFFFF;
     border-radius: 50px;
-    line-height: 4px;
+    line-height: 44px;
 
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF;
     text-transform: uppercase;
-
+    text-decoration: none;
+    transition: all 0.2s ease-in;
   
+}
+
+.footer_button:hover {
+    background-color: #fff;
+    color:#1E4776 ;
 }
 .footer_contacts p {
     margin: 10px 0;
@@ -225,4 +245,73 @@ margin-left: 30px;
     line-height: 1.3;
     color: #7E9EC9;
 
+}
+
+/* forest-travel */
+.project {
+padding: 80px 0 120px 0;
+text-align: center;
+}
+
+/* .container {
+
+} */
+
+.project_header {
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 1.3;
+    
+    color: #000000;
+    border: 2px solid #275BEC;
+    
+}
+
+.project_img {
+    margin-bottom: 70px;
+}
+.project_img_weight {
+    color: maroon;
+}
+
+.project_description {
+    margin: 0 auto 60px;
+    max-width: 730px;
+} 
+
+.project_description p {
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+
+    text-align: center;
+    color: #000000;
+}
+
+.project_btn_back {
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+
+    border: 3px solid #275BEC;
+    border-radius: 50px;
+    line-height: 54px;
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #275BEC;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.project_btn_back:hover {
+    background-color: #275BEC;
+    color: #FFFFFF;
 }

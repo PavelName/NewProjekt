@@ -10,6 +10,7 @@ body {
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
+    /* background-image: url("./../img/header/IMG_20230201_192414.jpg"); */
 }
 /* Навигация сайта */
 header {
@@ -33,6 +34,7 @@ header {
 }
 .header_head {
     position: relative;
+
     display: flex;
     flex-direction: column;
     justify-content: center;

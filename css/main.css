@@ -297,8 +297,10 @@ text-align: center;
     font-size: 18px;
     line-height: 1.5;
 
+    /* border: 2px solid #275BEC; */
     text-align: center;
     color: #000000;
+
 }
 
 .project_btn_back {

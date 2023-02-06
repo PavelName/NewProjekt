@@ -5,12 +5,16 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: #3f3430;
+    background: url("./../img/header/background.jpg");
+    background-repeat: repeat;
+    background-size: 1140px;
+    
 }
 .container {
     max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
-    /* background-image: url("./../img/header/IMG_20230201_192414.jpg"); */
+    
 }
 /* Навигация сайта */
 header {

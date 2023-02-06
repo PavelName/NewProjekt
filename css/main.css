@@ -37,6 +37,10 @@ header {
 .header_nav a:hover {
     color: chartreuse;
 }
+
+.healer_nav_img {
+    border-radius: 50%;
+}
 .header_head {
     position: relative;
 

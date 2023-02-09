@@ -69,8 +69,13 @@ header {
     line-height: 130%;
 
     text-align: center;
-    color: green;
+    color: rgb(17, 6, 135);
 
+}
+
+.header_title_titan {
+    font-size: 60px;
+    color: #f5ed06;
 }
 
 .header_subtitle {
@@ -83,7 +88,7 @@ header {
     letter-spacing: 0.2em;
     text-transform: uppercase;
 
-    color: red;
+    color: rgb(255, 225, 0);
     
 }
 .header_arrow {
@@ -335,4 +340,8 @@ text-align: center;
 .project_btn_back:hover {
     background-color: #275BEC;
     color: #FFFFFF;
+}
+
+span {
+    color: #4c0dea;
 }

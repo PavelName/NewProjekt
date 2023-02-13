@@ -117,6 +117,9 @@ header {
     text-align: center;
     color: #871d1d;
 }
+.portfolio_header_sport {
+    color: #e30fc3;
+}
 
 .portfolio_cards_wrapper {
     display: flex;

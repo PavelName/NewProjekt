@@ -348,3 +348,15 @@ text-align: center;
 span {
     color: #4c0dea;
 }
+
+.block {
+    width: 800px;
+    height: 400px;
+    background-color: #0e22b3;
+}
+@media (max-width: 800px) {
+    .block {
+        width: 400px;
+        background-color: #cd1313;
+    }
+}

@@ -13,13 +13,29 @@
 }
 
 @media (max-width: 760px) {
-.header_title_titan {
+    .header_title_titan {
         font-size: 25px;
     }
+
+    .header_subtitle{
+        font-size: 14px;
+    }
+    .portfolio {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .portfolio_header {
+        font-size: 32px;
+        margin-bottom: 30px;
+
+    }
+    .card {
+        width: 100%;
+    }
+    .portfolio_cards_wrapper {
+        justify-content: center;
 }
 
 @media (max-width: 760px) {
-    .header_subtitle{
-            font-size: 14px;
-        }
+    
     }

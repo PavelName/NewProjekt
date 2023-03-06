@@ -10,10 +10,17 @@ body {
     background-size: 1140px;
     
 }
+
+img {
+    max-width: 100%;
+}
+
 .container {
-    max-width: 1110px;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 /* Навигация сайта */
@@ -75,6 +82,7 @@ header {
 
 .header_title_titan {
     font-size: 60px;
+    line-height: 120%;
     color: #f5ed06;
 }
 
@@ -350,7 +358,7 @@ span {
 }
 
 
-/* Мобильная адаптация */
+/* Мобильная адаптация
 .block {
     width: 1200px;
     height: 400px;
@@ -363,4 +371,4 @@ span {
         width: 400px;
         background-color: #cd1313;
     }
-}
+} */

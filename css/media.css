@@ -31,13 +31,17 @@
     .header_title_titan {
         font-size: 25px;
     }
+    .healer_nav_img {
+        width: 30px;
+        height: 30px;
+    }
     .header_nav a {
         font-size: 14px;
         padding: 5px;
     }
     .project_description p {
         font-size: 14px;
-        color: #;
+        
     }
 
     .header_subtitle{

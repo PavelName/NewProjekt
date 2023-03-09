@@ -126,7 +126,11 @@ header {
     color: #871d1d;
 }
 .portfolio_header_sport {
-    color: #e30fc3;
+    color: #2d2525;
+}
+
+span {
+    color: #ea140d;
 }
 
 .portfolio_cards_wrapper {
@@ -193,6 +197,8 @@ margin-bottom: 20px;
     text-align: center;
   
 }
+
+
 
 /* footer */
 
@@ -361,9 +367,7 @@ text-align: center;
     color: #FFFFFF;
 }
 
-span {
-    color: #4c0dea;
-}
+
 
 
 /* Мобильная адаптация

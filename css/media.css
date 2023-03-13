@@ -7,11 +7,7 @@
         padding-top: 40px;
         padding-bottom: 60px;
     }
-    .footer_row {
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-    }
+    
     .footer-col {
         margin-bottom: 50px;
     }
@@ -19,6 +15,15 @@
         margin-bottom: 0;
     }
 }
+@media (max-width: 1020px) {
+    .footer_row {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
 
 @media (max-width: 760px) {
 .header_title {
@@ -102,6 +107,7 @@
     .footer_button {
         font-size: 12px;
     }
+    
 
 }
 
